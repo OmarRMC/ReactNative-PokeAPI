@@ -41,9 +41,13 @@ npm install
 ```
 ## Inicia el servidor de desarrollo de Expo:
 ``` bash
-npx start
-Escanea el código QR con la app de Expo Go o inicia el emulador de tu elección.
+npm start
 ```
+## Inicia el servidor de desarrollo de Expo:
+``` bash
+npx expo  start
+```
+Escanea el código QR con la app de Expo Go o inicia el emulador de tu elección.
 
 # Estructura del Proyecto
 ``` bash
@@ -85,46 +89,7 @@ Este proyecto es una aplicación móvil desarrollada con **React Native** utiliz
 - **Axios**: Biblioteca para realizar solicitudes HTTP.  
 - **PokeAPI**: API pública para obtener datos de Pokémon.  
 
----
 
-## **Instalación y Configuración**  
-
-### **Requisitos Previos**  
-- Node.js instalado en tu sistema.  
-- Expo CLI instalado globalmente:  
-  ```bash
-  npm install -g expo-cli
-Un emulador Android/iOS o un dispositivo físico con la app de Expo Go instalada.
-Pasos para Ejecutar el Proyecto
-Clona este repositorio:
-bash
-Copiar código
-git clone https://github.com/tu-usuario/nombre-repositorio.git
-cd nombre-repositorio
-Instala las dependencias del proyecto:
-bash
-Copiar código
-npm install
-Inicia el servidor de desarrollo de Expo:
-bash
-Copiar código
-npm start
-Escanea el código QR con la app de Expo Go o inicia el emulador de tu elección.
-Estructura del Proyecto
-bash
-Copiar código
-.
-├── App.js             # Configuración de navegación y rutas principales.
-├── components/        # Componentes reutilizables.
-│   ├── PokemonCard.js # Tarjetas de Pokémon en la lista principal.
-│   ├── PokemonDetails.js # Componente para mostrar detalles del Pokémon.
-├── screens/           # Pantallas de la aplicación.
-│   ├── HomeScreen.js  # Pantalla de inicio con la lista y búsqueda.
-│   ├── DetailsScreen.js # Pantalla para los detalles de un Pokémon.
-├── utils/             # Lógica y utilidades.
-│   ├── api.js         # Funciones para consumir la API Pokémon.
-├── assets/            # Recursos estáticos.
-└── package.json       # Configuración del proyecto y dependencias.
 # Funcionalidades
 1. Pantalla Principal (HomeScreen.js)
 Carga una lista de Pokémon desde la PokeAPI.
