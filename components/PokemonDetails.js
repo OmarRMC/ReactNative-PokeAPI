@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet, FlatList } from 'react-native';
+
 
 const DetallesPokemon = ({ pokemon }) => {
   return (
@@ -8,7 +9,16 @@ const DetallesPokemon = ({ pokemon }) => {
       <Text style={styles.name}>{pokemon.name.toUpperCase()}</Text>
       <Text style={styles.detail}>Altura: {pokemon.height}</Text>
       <Text style={styles.detail}>Peso: {pokemon.weight}</Text>
-      <Text style={styles.detail}>Habilidades: {pokemon.abilities.map(a => a.ability.name).join(', ')}</Text>
+      <View style={styles.habilidades}>
+        {
+        //pokemon.abilities.map(a => a.ability.name).join(', ')
+        }
+        <Text  style={styles.title}>Lista de Habilidades </Text>
+        <FlatList
+        data={pokemon.abilities}
+        renderItem={({ item ,index}) => <Text>{(index+1)+". "+item.ability.name}</Text>}>
+        </FlatList>
+          </View>
     </View>
   );
 };
@@ -31,6 +41,13 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginVertical: 5,
   },
+  habilidades:{
+  
+  }
+  , 
+  title:{
+  fontWeight: "bold"
+  }
 });
 
 export default DetallesPokemon;

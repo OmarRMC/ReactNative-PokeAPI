@@ -1,14 +1,12 @@
 # **Web Service con React Native (API Pokémon)**  
 
 Este proyecto es una aplicación móvil desarrollada con **React Native** utilizando **Expo** que consume datos de la **PokeAPI**. Permite listar Pokémon, buscar por nombre y ver detalles de un Pokémon específico. Está diseñado para demostrar el consumo de Web Services en una aplicación multiplataforma.  
-
 ---
 
 ## **Características Principales**  
 - Lista los primeros 50 Pokémon con nombre e imagen.  
 - Barra de búsqueda dinámica para filtrar Pokémon.  
 - Pantalla de detalles para cada Pokémon, mostrando habilidades, altura y peso.  
-
 ---
 
 ## **Tecnologías Utilizadas**  
