@@ -32,7 +32,7 @@ Este proyecto es una aplicación móvil desarrollada con **React Native** utiliz
 Clona este repositorio:
 ``` bash
 git clone https://github.com/OmarRMC/ReactNative-PokeAPI.git
-cd nombre-repositorio
+cd ReactNative-PokeAPI
 ```
 
 ## Instala las dependencias del proyecto:
