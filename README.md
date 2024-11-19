@@ -66,30 +66,6 @@ Escanea el código QR con la app de Expo Go o inicia el emulador de tu elección
 
 ```
 
-Aquí tienes un archivo README.md bien estructurado para tu proyecto, listo para subirlo a GitHub:
-
-markdown
-Copiar código
-# **Web Service con React Native (API Pokémon)**  
-
-Este proyecto es una aplicación móvil desarrollada con **React Native** utilizando **Expo** que consume datos de la **PokeAPI**. Permite listar Pokémon, buscar por nombre y ver detalles de un Pokémon específico. Está diseñado para demostrar el consumo de Web Services en una aplicación multiplataforma.  
-
----
-
-## **Características Principales**  
-- Lista los primeros 50 Pokémon con nombre e imagen.  
-- Barra de búsqueda dinámica para filtrar Pokémon.  
-- Pantalla de detalles para cada Pokémon, mostrando habilidades, altura y peso.  
-
----
-
-## **Tecnologías Utilizadas**  
-- **React Native**: Framework para desarrollo móvil multiplataforma.  
-- **Expo**: Herramienta para simplificar el desarrollo y pruebas.  
-- **Axios**: Biblioteca para realizar solicitudes HTTP.  
-- **PokeAPI**: API pública para obtener datos de Pokémon.  
-
-
 # Funcionalidades
 1. Pantalla Principal (HomeScreen.js)
 Carga una lista de Pokémon desde la PokeAPI.
